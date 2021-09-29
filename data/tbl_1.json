@@ -1,0 +1,207 @@
+{
+    "listTable" : {
+        "info" : {
+            "colNum" : 6
+            ,"styles" : ["80px","100px",null,"100px","120px","100px"]
+        },
+        "content" : [
+            {
+                "EL" : "CAPTION"
+                ,"ctnt" : "이것은 목록 테이블입니다."
+            },
+            {
+                "EL" : "THEAD"
+                ,"ctnt" : [
+                    {"row_START" : true,"EL" : "TH", "ctnt" : "번호"}
+                    ,{"EL" : "TH", "ctnt" : "카테고리"}
+                    ,{"EL" : "TH", "ctnt" : "제목"}
+                    ,{"EL" : "TH", "ctnt" : "작성자"}
+                    ,{"EL" : "TH", "ctnt" : "작성일"}
+                    ,{"row_END" : true,"EL" : "TH", "ctnt" : "조회수"}
+                ]
+            },
+            {
+                "EL" : "TBODY"
+                ,"ctnt" : [
+                    {"row_START" : true,"EL" : "TD", "ctnt" : 111}
+                    ,{"EL" : "TD", "ctnt" : "카테고리_1"}
+                    ,{"EL" : "TD", "ctnt" : "이곳에 제목을 출력 001","textAlign":"left"}
+                    ,{"EL" : "TD", "ctnt" : "홍길동"}
+                    ,{"EL" : "TD", "ctnt" : "2021-09-28"}
+                    ,{"row_END" : true, "EL" : "TD", "ctnt" : "1111"}
+
+
+
+                    ,{"row_START" : true,"EL" : "TD", "ctnt" : 222}
+                    ,{"EL" : "TD", "ctnt" : "카테고리_2"}
+                    ,{"EL" : "TD", "ctnt" : "이곳에 제목을 출력 001","textAlign":"left"}
+                    ,{"EL" : "TD", "ctnt" : "홍길동"}
+                    ,{"EL" : "TD", "ctnt" : "2021-09-28"}
+                    ,{"row_END" : true, "EL" : "TD", "ctnt" : "2222"}
+
+
+                    
+                    ,{"row_START" : true,"EL" : "TD", "ctnt" : 333}
+                    ,{"EL" : "TD", "ctnt" : "카테고리_3"}
+                    ,{"EL" : "TD", "ctnt" : "이곳에 제목을 출력 001","textAlign":"left"}
+                    ,{"EL" : "TD", "ctnt" : "홍길동"}
+                    ,{"EL" : "TD", "ctnt" : "2021-09-28"}
+                    ,{"row_END" : true, "EL" : "TD", "ctnt" : "3333"}
+                ]
+            }
+        ]
+    },
+
+    "viewTable" : {
+        "info" : {
+            "colNum" : 5
+            ,"styles" : ["20%", null, "20%", null , null]
+        },
+        "content" : [
+            {"EL" : "CAPTION", "ctnt" : "내용 테이블"},
+            {"EL" : "TBODY",
+             "ctnt" : [
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+                
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "colSpan 예제"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "colSpan...!", "isSpan" : "colSpan", "spanNum" : 4},
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "colSpan 예제"},
+                {"EL" : "TD", "ctnt" : "colSpan...!", "isSpan" : "colSpan", "spanNum" : 3},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "colSpan 예제"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "colSpan...!", "isSpan" : "colSpan", "spanNum" : 4},
+
+                
+                
+                {"row_START" : true, "EL" : "TH", "ctnt" : "rowSpan 예제", "isSpan" : "rowSpan", "spanNum" : 4},
+                {"EL" : "TD", "ctnt" : "평범한 TD_1"},
+                {"EL" : "TH", "ctnt" : "평범한 TD_1"},
+                {"EL" : "TD", "ctnt" : "평범한 TD_1"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD_1"},
+
+                {"row_START" : true, "EL" : "TD", "ctnt" : "평범한 TD_2"},
+                {"EL" : "TH", "ctnt" : "평범한 TD_2"},
+                {"EL" : "TD", "ctnt" : "평범한 TD_2"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD_2"},
+                
+                {"row_START" : true, "EL" : "TD", "ctnt" : "평범한 TD_3"},
+                {"EL" : "TH", "ctnt" : "평범한 TD_3"},
+                {"EL" : "TD", "ctnt" : "평범한 TD_3"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD_3"},
+                
+                {"row_START" : true, "EL" : "TD", "ctnt" : "평범한 TD_4"},
+                {"EL" : "TH", "ctnt" : "평범한 TD_4"},
+                {"EL" : "TD", "ctnt" : "평범한 TD_4"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD_4"},
+
+                
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD", "isSpan" : "colSpan", "spanNum" : 2},
+
+
+
+                {"row_START" : true, "row_END" : true, "EL" : "TH", "ctnt" : "평범한 TH", "isSpan" : "colSpan", "spanNum" : 5},
+
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+                
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "rowSpan 예제", "isSpan" : "rowSpan", "spanNum" : 3},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "colSpan...!", "isSpan" : "colSpan", "spanNum" : 4},
+
+                {"row_START" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+
+                {"row_START" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+                
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "rowSpan 예제", "isSpan" : "rowSpan", "spanNum" : 3},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "rowSpan 예제", "isSpan" : "rowSpan", "spanNum" : 4},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "colSpan...!", "isSpan" : "colSpan", "spanNum" : 4},
+
+                {"row_START" : true, "EL" : "TD", "ctnt" : "평범한 TD_2"},
+                {"EL" : "TH", "ctnt" : "평범한 TH_2", "isSpan" : "rowSpan", "spanNum" : 3},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD_2", "isSpan" : "colSpan", "spanNum" : 2},
+
+                {"row_START" : true, "EL" : "TD", "ctnt" : "평범한 TD_3"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD_3", "isSpan" : "colSpan", "spanNum" : 2},
+
+                {"row_START" : true, "EL" : "TD", "ctnt" : "평범한 TD_4"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD_4", "isSpan" : "colSpan", "spanNum" : 2},
+
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"},
+
+
+
+                {"row_START" : true, "EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"EL" : "TH", "ctnt" : "평범한 TH"},
+                {"EL" : "TD", "ctnt" : "평범한 TD"},
+                {"row_END" : true, "EL" : "TD", "ctnt" : "평범한 TD"}
+
+            ]}
+        ]
+    }
+}

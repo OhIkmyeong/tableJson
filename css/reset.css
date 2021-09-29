@@ -1,0 +1,20 @@
+@charset "utf-8";
+*{margin:0;padding:0;box-sizing:border-box;}
+button,input{font-family:inherit;font-size:inherit;color:inherit;}
+table{table-layout:fixed;border-collapse:separate;border-spacing:0;}
+
+html,body{
+    display:flex;flex-flow:column nowrap;
+    justify-content:center; align-items:center;
+    width:100%;min-height:100vh;
+    font-size:14px;}
+
+button{cursor:pointer;}
+button span{pointer-events:none;}
+#btn{display:block;padding:.7em 2em;}
+
+#wrapper{
+    position:relative;
+    width:80%; max-width:800px;
+    margin:1rem auto;}
+

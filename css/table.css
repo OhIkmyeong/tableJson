@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.tbl{
+    position:relative;
+    width:100%;
+    margin:3rem 0;
+    border-top:2px solid rgb(0, 0, 0);
+    color:#666;}
+
+.tbl caption{font-size:.8rem; margin-bottom:1em;}
+
+.tbl th,
+.tbl td{
+    position:relative;
+    padding:.8em;
+    border:1px solid rgb(0, 0, 0);
+    border-width:0 1px 1px 0;}
+
+    .tbl tr th:last-child,
+    .tbl tr td:last-child{border-right:none;}
+
+.tbl th{
+    background:cadetblue;
+    font-weight:normal;color:#fff;}
+
+.tbl.list{text-align:center;}
+.tbl.list .toLeft{text-align:left;}
